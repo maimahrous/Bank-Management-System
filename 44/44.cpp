@@ -1460,8 +1460,8 @@ void ShowMainMenue(sUser CurrentUser)
 int main()
 
 {
-    sUser CurrentUser;
-    CurrentUser = ShowLoginScreen();
+    
+    ShowLoginScreen();
     system("pause>0");
     return 0;
 }
